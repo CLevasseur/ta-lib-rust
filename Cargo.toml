@@ -1,0 +1,9 @@
+[package]
+name = "ta-lib"
+version = "0.1.0"
+authors = ["Carl Levasseur <carl.levasseur@protonmail.com>"]
+
+[dependencies]
+
+[build-dependencies]
+bindgen = "0.26.3"
