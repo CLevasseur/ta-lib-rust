@@ -1,0 +1,19 @@
+language: rust
+rust:
+  - stable
+  - beta
+  - nightly
+matrix:
+  allow_failures:
+    - rust: nightly
+
+script:
+    - wget http://prdownloads.sourceforge.net/ta-lib/ta-lib-0.4.0-src.tar.gz
+    - tar xvzf ta-lib-0.4.0-src.tar.gz
+    - rm ta-lib-0.4.0-src.tar.gz
+    - cd ta-lib
+    - ./configure
+    - make
+    - sudo make install
+    - export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib/
+    - cargo test
