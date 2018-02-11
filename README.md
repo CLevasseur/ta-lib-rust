@@ -3,6 +3,10 @@
 
 TA-lib bindings for Rust
 
+TA-lib is a multi-platform library for market analysis. It includes 200 indicators such as ADX, MACD, RSI, Stochastic, Bollinger Bands, as well as Candlestick pattern recognition.
+    
+https://www.ta-lib.org/
+
 ## Installation
 
 Add the following dependency in your `Cargo.toml` file:
