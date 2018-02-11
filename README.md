@@ -26,7 +26,7 @@ extern crate ta_lib_wrapper;
 
 This wrapper requires that you have installed the TA-lib C library.  
 You can download it at https://www.ta-lib.org/hdr_dw.html.  
-The instructions to install the library can be found at https://www.ta-lib.org/d_api/d_api.html and are summarized below:
+The instructions to install the library can be found at https://www.ta-lib.org/d_api/d_api.html and are summarized below.
 
 ##### Linux
 
