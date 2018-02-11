@@ -33,7 +33,7 @@ license = "MIT"
 # If a project is using a nonstandard license, then this key may be specified in
 # lieu of the above key and must point to a file relative to this manifest
 # (similar to the readme key).
-license-file = "LICENCE"
+license-file = "LICENSE"
 
 # Optional specification of badges to be displayed on crates.io.
 #
