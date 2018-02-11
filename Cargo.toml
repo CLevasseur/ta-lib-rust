@@ -22,12 +22,6 @@ keywords = ["ta-lib", "technical-analysis", "indicator", "trading", "financial-m
 # they must match exactly.
 categories = ["api-bindings"]
 
-# This is a string description of the license for this package. Currently
-# crates.io will validate the license provided against a whitelist of known
-# license identifiers from http://spdx.org/licenses/. Multiple licenses can be
-# separated with a `/`.
-license = "MIT"
-
 # If a project is using a nonstandard license, then this key may be specified in
 # lieu of the above key and must point to a file relative to this manifest
 # (similar to the readme key).
