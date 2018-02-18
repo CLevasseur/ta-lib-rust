@@ -63,6 +63,11 @@ and unzip to ``C:\ta-lib``
 > * Move to ``C:\ta-lib\c\make\cdr\win32\msvc``
 > * Build the Library ``nmake``
 
+## Documentation
+
+The `examples` folder shows how to compute some common indicators using this library.  
+The list of the functions provided by the bindings can be obtained by building your project and open the file `target/*/build/ta-lib-wrapper-*/bindings.rs`
+
 ## Supported Indicators
 
 All indicators provided by TA-lib are available:
