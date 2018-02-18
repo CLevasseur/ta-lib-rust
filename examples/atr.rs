@@ -21,13 +21,13 @@ fn atr(period: u32, high: &Vec<TA_Real>, low: &Vec<TA_Real>,
             close.as_ptr(),                 // pointer to the first element of the close vector
             period as i32,                  // period of the rsi
             &mut out_begin,                 // set to index of the first close to have an rsi value
-            &mut out_size,                  // set to number of sma values computed
+            &mut out_size,                  // set to number of atr values computed
             out.as_mut_ptr()                // pointer to the first element of the output vector
         );
         match ret_code {
             // Indicator was computed correctly, since the vector was filled by TA-lib C library,
             // Rust doesn't know what is the new length of the vector, so we set it manually
-            // to the number of values returned by the TA_MA call
+            // to the number of values returned by the TA_ATR call
             TA_RetCode::TA_SUCCESS => out.set_len(out_size as usize),        
             // An error occured
             _ => panic!("Could not compute indicator, err: {:?}", ret_code)  
