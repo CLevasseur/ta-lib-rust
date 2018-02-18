@@ -66,7 +66,7 @@ and unzip to ``C:\ta-lib``
 ## Documentation
 
 The `examples` folder shows how to compute some common indicators using this library.  
-The full list of functions provided by these bindings can be obtained by building your project and open the file `target/*/build/ta-lib-wrapper-*/bindings.rs`
+The full list of functions provided by these bindings can be obtained by building your project and open the file `target/*/build/ta-lib-wrapper-*/out/bindings.rs`
 
 ## Supported Indicators
 
