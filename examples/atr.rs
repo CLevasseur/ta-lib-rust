@@ -19,8 +19,8 @@ fn atr(period: u32, high: &Vec<TA_Real>, low: &Vec<TA_Real>,
             high.as_ptr(),                  // pointer to the first element of the high vector
             low.as_ptr(),                   // pointer to the first element of the low vector
             close.as_ptr(),                 // pointer to the first element of the close vector
-            period as i32,                  // period of the rsi
-            &mut out_begin,                 // set to index of the first close to have an rsi value
+            period as i32,                  // period of the atr
+            &mut out_begin,                 // set to index of the first close to have an atr value
             &mut out_size,                  // set to number of atr values computed
             out.as_mut_ptr()                // pointer to the first element of the output vector
         );
