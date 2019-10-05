@@ -15,6 +15,8 @@ fn main() {
         // The input header we would like to generate
         // bindings for.
         .header("wrapper.h")
+        // Generate rustified enums
+        .rustified_enum(".*")
         // Finish the builder and generate the bindings.
         .generate()
         // Unwrap the Result and panic on failure.
