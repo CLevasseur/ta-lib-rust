@@ -1,6 +1,6 @@
 [package]
 name = "ta-lib-wrapper"
-version = "0.1.1"
+version = "0.2.0"
 authors = ["Carl Levasseur <carl.levasseur@protonmail.com>"]
 
 description = "Rust wrapper for TA-lib"
