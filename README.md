@@ -13,7 +13,7 @@ Add the following dependency in your `Cargo.toml` file:
 
 ```toml
 [dependencies]
-ta-lib-wrapper = "0.1.1"
+ta-lib-wrapper = "0.2.0"
 ```
 
 And this to your crate root
